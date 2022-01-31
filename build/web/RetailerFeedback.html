@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Advertise</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="CSS/Admin.css">
+    </head>
+    <body>
+        <table id="Heading">
+                <tr>
+                    <td>Online Advertisement</td>
+                </tr>
+        </table>
+        <table id="Gap"></table>
+        <table id="navigation">
+                <tr>
+                    <td>
+                        <a href="RetailerHome.html" id="Home">Home</a>
+                    </td>
+                    <td>
+                        <span id="dropdown2">
+                            <button id="cus">Advertisement</button>
+                            <span id="cus1">
+                                <a href="AddAdverRet.jsp" id="Addadver">Add Advertisement</a>
+                                <a href="AdverRet.jsp" id="adver">Advertisement Report</a>
+                            </span>
+                        </span>
+                    </td>
+                    <td>
+                        <span id="dropdown2">
+                            <button id="cus">Feedback</button>
+                            <span id="cus1">
+                                <a href="RetailerFeedback.html" id="adver">Add Feedback</a>
+                                <a href="FeedbacklistRet.jsp" id="adver">Feedback Report</a>
+                            </span>
+                        </span>
+                    </td>
+                    <td>
+                        <a href="RetailerLog.html" id="logout">Logout</a>
+                    </td>
+                </tr>
+            </table>
+        <table id="Conte">
+            <tr>
+                <td id="Conte_da1">
+                    <h3 style="text-align: center;">FeedBack</h3>
+                    <form action="RetailerFeedback.jsp" method="post" style="text-align: center;">
+                        To<input type="text" name="To" id="FTo"><br><br>
+                        Message<input type="text" name="Message" id="FMess"><br><br>
+                        <input type="submit" value="Sent" id="Subm">
+                    </form>
+                </td>
+        </table>
+    </body>
+</html>

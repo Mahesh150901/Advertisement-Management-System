@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Advertise</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="CSS/Admin.css">
+    </head>
+    <body>
+        <table id="Heading">
+            <tr>
+                <td>Online Advertisement</td>
+            </tr>
+        </table>
+        <table id="Gap"></table>
+        <table id="navigation">
+            <tr>
+                <td>
+                    <a href="Admin.html" id="Home">Home</a>
+                </td>
+                <td>
+                    <span id="dropdown1">
+                        <button id="Emp">Manage</button>
+                        <span id="Emp1">
+                            <a href="RetailerList.jsp" id="Addemp">Retailer</a><br>
+                            <a href="ConsumerList.jsp" id="emplo">Consumer</a>
+                        </span>
+                    </span>
+                </td>
+                <td>
+                    <span id="dropdown2">
+                        <button id="cus">Advertisement</button>
+                        <span id="cus1">
+                            <a href="AddAdver.jsp" id="Addadver">Add Advertisement</a>
+                            <a href="Adver.jsp" id="adver">Advertisement Report</a>
+                        </span>
+                    </span>
+                </td>
+                <td>
+                    <span id="dropdown2">
+                        <button id="cus">FeedBack</button>
+                        <span id="cus1">
+                            <a href="AdminFeedback.html" id="Home">Feedback</a>
+                            <a href="Feedbacklist.jsp" id="adver">Feedback Report</a>
+                        </span>
+                    </span>
+                </td>
+                <td>
+                    <a href="Log.html" id="logout">Logout</a>
+                </td>
+            </tr>
+        </table>
+        <table id="Conte">
+            <tr>
+                <td id="Conte_da1">
+                    <table id="Empform">
+                        <tr>
+                            <td id="EmpFormlist">
+                                <h3>Edit Customer Details</h3>
+                                <form action="EditConsumer" method="post" enctype="Multipart/form-data">
+                                    Name  <input type="text" name="Name" id="Name" required><br><br>
+                                    Email <input type="email" name="Email" id="Email" required><br><br>
+                                    Phone Number <input type="text" name="Phone" id="Phone" required><br><br>
+                                    Gender<input type="radio" name="Gender" id="Gender" value="Male">Male
+                                    <input type="radio" name="Gender" id="Gender" value="Female">Female<br><br>
+                                    Date of Birth <input type="date" name="DOB" id="DOB"><br><br>
+                                    City <input type="text" name="City" id="City" required><br><br>
+                                    State <input type="text" name="State" id="State" required><br><br>
+                                    Country <input type="text" name="Country" id="Country" required><br><br>
+                                    Username <input type="text" name="Username" id="UsernameReg" required><br><br>
+                                    Password <input type="password" name="Password" id="PasswordReg" required><br><br>
+                                    Image <input type="file" name="Image" id="Image" accept="image/gif, image/jpeg, image/png"><br><br>
+                                    <input type="submit" name="Sub" value="Edit" id="Sub">
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Advertise</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="CSS/Admin.css">
+    </head>
+    <body>
+        <table id="Heading">
+            <tr>
+                <td>Online Advertisement</td>
+            </tr>
+        </table>
+        <table id="Gap"></table>
+        <table id="navigation">
+            <tr>
+                <td>
+                    <a href="Admin.html" id="Home">Home</a>
+                </td>
+                <td>
+                    <span id="dropdown1">
+                        <button id="Emp">Manage</button>
+                        <span id="Emp1">
+                            <a href="RetailerList.jsp" id="Addemp">Retailer</a><br>
+                            <a href="ConsumerList.jsp" id="emplo">Consumer</a>
+                        </span>
+                    </span>
+                </td>
+                <td>
+                    <span id="dropdown2">
+                        <button id="cus">Advertisement</button>
+                        <span id="cus1">
+                            <a href="AddAdver.jsp" id="Addadver">Add Advertisement</a>
+                            <a href="Adver.jsp" id="adver">Advertisement Report</a>
+                        </span>
+                    </span>
+                </td>
+                <td>
+                    <span id="dropdown2">
+                        <button id="cus">FeedBack</button>
+                        <span id="cus1">
+                            <a href="AdminFeedback.html" id="Home">Feedback</a>
+                            <a href="Feedbacklist.jsp" id="adver">Feedback Report</a>
+                        </span>
+                    </span>
+                </td>
+                <td>
+                    <a href="Log.html" id="logout">Logout</a>
+                </td>
+            </tr>
+        </table>
+        <center><table id="Empform" style="text-align: center;">
+                        <tr>
+                            <td id="EmpFormlist" style="text-align: center;">
+                                <h3>Delete Details</h3>
+                                <form action="DelRetailer.jsp" method="post">
+                                    Enter Name to confirm the Deletion <input type="text" name="Name" id="Name" required><br><br>
+                                    <input type="submit" name="Sub" value="Delete" id="Sub">
+                                </form>
+                            </td>
+                        </tr>
+            </table></center>
+    </body>
+</html>

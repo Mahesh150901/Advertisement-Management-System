@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Advertisement</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="CSS/index.css">
+    </head>
+    <body>
+        <table id="Heading">
+            <tr>
+                <td>Online Advertisement</td>
+            </tr>
+        </table>
+        <table id="Gap"></table>
+        <table id="navigation">
+            <tr>
+                <td><a href="index.html" id="home">Home</a></td>
+                <td><a href="About.html" id="About">About us</a></td>
+                <td><a href="Contact.html" id="Contact">Contact us</a></td>
+                <td><span id="dropdown">
+                        <button id="Loginde">Register</button>
+                        <span id="Loginde1">
+                            <a href="RetailerRegister.html" id="ReLog">Retailer</a><br>
+                            <a href="ConsumRegister.html" id="ConsLog">Consumer</a>
+                        </span>
+                    </span>
+                </td>
+                <td>
+                    <span id="dropdown">
+                        <button id="Loginde">Login</button>
+                        <span id="Loginde1">
+                            <a href="Log.html" id="Log">Admin</a><br>
+                            <a href="RetailerLog.html" id="ReLog">Retailer</a><br>
+                            <a href="ConsumerLog.html" id="ConsLog">Consumer</a>
+                        </span>
+                    </span>
+                </td>
+            </tr>
+        </table>
+        <table id="Gap"></table>
+        <center><table id="Logi">
+                <tr>
+                    <td id="Log_form">
+                        <h3>Consumer Login</h3>
+                        <form action="ConsumerLogin.jsp" method="post">
+                            Username<input type="text" name="Username" id="UName"><br><br>
+                            Password<input type="password" name="Password" id="Pass"><br><br>
+                            <input type="submit" name="Submit" value="Submit" id="Sub">
+                        </form>
+                        <a href="ConsumerForgot.html" id="For">Forgot Password?</a>
+                    </td>
+                </tr>
+            </table></center>
+        <table id="Footer">
+            <tr>
+                <td><marquee>Designed By</marquee></td>
+            </tr>
+        </table>
+    </body>
+</html>

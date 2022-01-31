@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Advertisement</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="CSS/index.css">
+    </head>
+    <body>
+        <table id="Heading">
+            <tr>
+                <td>Online Advertisement</td>
+            </tr>
+        </table>
+        <table id="Gap"></table>
+        <table id="navigation">
+            <tr>
+                <td><a href="index.html" id="home">Home</a></td>
+                <td><a href="About.html" id="About">About us</a></td>
+                <td><a href="Contact.html" id="Contact">Contact us</a></td>
+                <td><span id="dropdown">
+                        <button id="Loginde">Register</button>
+                        <span id="Loginde1">
+                            <a href="RetailerRegister.html" id="ReLog">Retailer</a><br>
+                            <a href="ConsumRegister.html" id="ConsLog">Consumer</a>
+                        </span>
+                    </span>
+                </td>
+                <td>
+                    <span id="dropdown">
+                        <button id="Loginde">Login</button>
+                        <span id="Loginde1">
+                            <a href="Log.html" id="Log">Admin</a><br>
+                            <a href="RetailerLog.html" id="ReLog">Retailer</a><br>
+                            <a href="ConsumerLog.html" id="ConsLog">Consumer</a>
+                        </span>
+                    </span>
+                </td>
+            </tr>
+        </table>
+        <table id="Gap"></table>
+        <center><table id="Consume">
+                <tr>
+                    <td id="consume_form">
+                        <h3 style="text-align: center;">Consumer Registration</h3>
+                        <form action="ConsumeRegister" method="post" enctype="Multipart/form-data">
+                                    Name  <input type="text" name="Name" id="Name" required><br><br>
+                                    Email <input type="email" name="Email" id="Email" required><br><br>
+                                    Phone Number <input type="text" name="Phone" id="Phone" required><br><br>
+                                    Gender<input type="radio" name="Gender" id="Gender" value="Male">Male
+                                    <input type="radio" name="Gender" id="Gender" value="Female">Female<br><br>
+                                    Date of Birth <input type="date" name="DOB" id="DOB"><br><br>
+                                    City <input type="text" name="City" id="City" required><br><br>
+                                    State <input type="text" name="State" id="State" required><br><br>
+                                    Country <input type="text" name="Country" id="Country" required><br><br>
+                                    Username <input type="text" name="Username" id="UsernameReg" required><br><br>
+                                    Password <input type="password" name="Password" id="PasswordReg" required><br><br>
+                                    Image <input type="file" name="Image" id="Image" accept="image/gif, image/jpeg, image/png"><br><br>
+                                    <input type="submit" name="Sub" value="Add" id="Sub">
+                        </form>
+                    </td>
+                </tr>
+            </table></center>
+        <table id="Footer">
+            <tr>
+                <td><marquee>Designed By</marquee></td>
+            </tr>
+        </table>
+    </body>
+</html>
